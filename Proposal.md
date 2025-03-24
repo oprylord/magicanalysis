@@ -1,0 +1,26 @@
+1. I want to analyze Magic: The Gathering cards and answer the question of how "on-rails" the draft experience is between Bloomburrow and Duskmourn: House of Horror, as well as how "bomb-heavy" these formats are in comparison with each other.
+
+2. This question is worth answering to me because I started to pick up Magic: The Gathering for the "limited/draft" experience, in which players pass around booster packs, selecting cards one at a time to build a deck from the "limited" pool they are given. The fun part about this format of playing the game is how each game never really feels the same, and on top of that, each expansion set has a very different experience and metagame when it comes to playing with cards in that format. To clarify, Magic has different expansions sets that release every so often. I've been a part of the Magic community for 3 set releases now, those being Outlaws of Thunder Junction (OTJ), Bloomburrow (BLB), and Duskmourn: House of Horror (DSK). A sentiment I've seen thrown around quite often within the Magic community is that Bloomburrow has been one of the least fun sets to draft in recent memory, while Duskmourn: House of Horror has conversely been one of the most fun sets to draft. I wanted to take a look at what the data might indicate with regards to the comments brought up about both Bloomburrow and Duskmourn, and if there is any foundation for some claims about these sets. 
+
+For context, "on-rails" can be described as how "forced" you are to make certain cards work together. Often times, people enjoy the complexity and challenges of drafting because you get the freedom to choose what to structure your picks and final deck around. When the set/format has cards that usually only fit one specific strategy, it becomes harder to navigate the draft process because your freedom is limited by how the cards interact with each other, making it feel like an "on-rails" experience where you don't get to make many decisions.
+
+As for "bomb-heavy," there is a nickname for strong cards that can turn the tide of a game or almost guarantee you the win once you play them: bombs. "Bomb-heavy" refers to sets where the bomb cards are so much more stronger and polarizing that it leans from a strong card into a game-decider where playing it almost guarantees you the win, because games then tend to play out as less of a battle and more of a "who draws their game-winning bomb card first."
+
+
+3. 
+My hypothesis is that Bloomburrow will be both much more on-rails and bomb-heavy than Duskmourn. My source for this hypothesis is that a lot of the cards within Bloomburrow have explicit tribal synergies that require similar card types, while Duskmourn has more mechanical synergies that allow for more freedom.
+
+For context, there are creature and spell cards in Magic. Creature cards can have types; a card such as "Mouse Trapper" will aptly have the "Mouse" type. Bloomburrow was a set focused around animals, and thus had an animal type related to each color pairing (i.e, Mouse for Red/White, Squirrel for Black/Green, etc.) Each animal type had their own synergy that could be used with other animal types, but were much stronger when paired with cards of the same type.
+
+On the other hand, Duskmourn's synergies weren't tribal/type based, but more mechanics-based. The big mechanics pushed in Duskmourn were "Manifest Dread" and "Delirium." Manifest Dread would have you look at the top two cards on your deck and choose one to summon as a small creature while discarding the other one to your graveyard. Delirium was a condition tied to most effects that would only activate if you had a certain number of card types in your graveyard. These two mechanics worked very well together, as one mechanic (Manifest Dread) helped you to reach the other mechanic (Delirium) much faster.
+
+My hypothesis is that the animal types of Bloomburrow forced players to focus and pick an animal type and color combination much more rigidly, while the synergistic mechanics of Duskmourn allowed for more flexible deck-building options. 
+
+I will preface that the "bomb-heaviness" of a format completely depends on the cards in that format. However, my hypothesis is that Bloomburrow may tend to be the more bomb-heavy set because of how on-rails I am predicting it to be. My guess is that the color pairs and animal types being more relevant means that the cards that synergize within a color pair will also be much stronger and polarizing given that your entire deck is built to support that type/synergy.
+
+4. My dataset that I will be using is pulled from 17lands, a Magic: The Gathering Arena companion app that pulls and records draft & game information from online games of Magic. I was originally planning to do analysis across 5-6 sets spanning the last few years of Magic, but found out that would be way too much data so I settled on comparing Bloomburrow and Duskmourn (given how they are the most recent 2 sets and how I am familiar with them).
+The dataset can be found at: https://www.17lands.com/public_datasets
+The data for Bloomburrow was procured from: Expansion BLB, Format PremierDraft, Game Data
+The data was Duskmourn was procured from: Expansion DSK, Format PremierDraft, Game Data
+
+
